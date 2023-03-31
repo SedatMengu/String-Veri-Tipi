@@ -58,11 +58,13 @@ print(name.isnumeric)
 print(name.isprintable)
 print(name.isspace)
 print(name.istitle)
+
 print(name.isupper())
 #print = True ( ifadenin bütün harflerinin büyük olup olmadığını kontrol eder. True / False olarak döner)
 
 print(name.join)
 print(name.ljust)
+
 print(name.lower())
 #print = hello world! ( ifadenin bütün değerlerinin küçük harfli olmasını sağlar)
 
@@ -83,16 +85,30 @@ print(name.split())
 #print = ['HELLO', 'WORLD!'] ( parantez içindeki ifadeden split etmeye yarar. parantez içinde hangi ifade varsa ordan split eder )
 
 print(name.splitlines)
-print(name.startswith)
+
+startswith="Hello World"
+print(startswith.startswith("H"))
+#pint = True (değişkenin parantez içindeki ifade ile başlayıp başlamadığını kontol eder. True / False olarak döner.)
+
 print(name.strip)
-print(name.swapcase)
-print(name.title)
+
+swapcase = "MY NAME is sedat mengü"
+print(swapcase.swapcase())
+#print = my name IS SEDAT MENGÜ (Küçükleri büyük harf , büyükleri küçük harf yapar.)
+
+title = "My name is Sedat MENGÜ"
+print(title.title())
+#print = My Name Is Sedat Mengü (her kelimenin ilk karakterini büyük yapar.)
+
 print(name.translate)
 
 print(name.upper())
 #print = HELLO WORLD! ( ifadenin bütün harflerinin büyük olmasını sağlar)
 
-print(name.zfill)
+price = "125"
+print(price.zfill(6))
+
+#print = 000125 ( parantez içindeki karakter sayısına tamamlayıp baş tarafına ihtiyaç kadar 0 ekler)
 
 
 
